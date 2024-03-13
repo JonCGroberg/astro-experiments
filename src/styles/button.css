@@ -1,0 +1,17 @@
+.btn {
+    padding: 1rem;
+    border-radius: .4rem;
+    border: none;
+    outline: none;
+    box-shadow: #ffffff66 0px 0px 10px 3px;
+
+    transition-duration: 200ms;
+}
+
+.btn-white:hover{
+    background-color: white;
+    transition-duration: 500ms;
+    cursor:pointer;
+    transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+    outline: rgb(159, 28, 235) solid 2px;
+}
